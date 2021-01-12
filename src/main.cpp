@@ -124,7 +124,7 @@ void bind_basics(py::module& basics) {
   basics.attr("__version__") = "0.0.1";
 }
 
-PYBIND11_MODULE(python_example, m) {
+PYBIND11_MODULE(pybind11_mypy_demo, m) {
 
   auto basics = m.def_submodule("basics");
   bind_basics(basics);
