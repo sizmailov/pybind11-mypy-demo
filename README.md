@@ -1,3 +1,11 @@
+Update 16-May-2022
+==================
+
+Stub generation tests for pybind11 are moved to mypy repo: https://github.com/python/mypy/pull/12722.
+Therefore this repo is archived.
+
+
+
 pybind11-mypy-demo
 ==================
 
